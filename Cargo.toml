@@ -11,7 +11,7 @@ authors = ["Joshka"]
 
 
 [workspace.dependencies]
-ratatui = { version = "0.29.0", default-features = false }
+ratatui = { version = "=0.30.0-alpha.0", default-features = false }
 tui-markdown = { version = "0.3.0", path = "tui-markdown" }
 
 [patch.crates-io]
